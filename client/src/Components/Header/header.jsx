@@ -1,9 +1,6 @@
 import React from 'react';
 import './Header.css';
-import bag from "../../assets/Bag.jpg"
-import car from "../../assets/Car.jpg"
-import shoes from "../../assets/Shoes.jpg"
-
+import shopping from '../../assets/Shopping.jpg';
 
 const Header = () => {
   return (
@@ -21,18 +18,7 @@ const Header = () => {
         </div>
       <div className="image">
 
-        <div className="image1">
-        <img src={bag} alt="" />
-        </div>
-
-        <div className="image2">
-          <img src={car} alt="" />
-        </div>
-        
-        <div className="image3">
-          <img src={shoes} alt="" />
-        </div>
-
+        <img src={shopping} alt="shopping" />
         </div>
     </div>
   

@@ -41,30 +41,13 @@ button{
     display: flex;
     gap: 15px;
     height: 30vh;
+    width: 25%;
     border-radius: 90px;
-    background-color: #fff;
     justify-content: center;
     align-items: center;
    
 }
-.image1 img{
-    width: 100%;
-    height: 15vh;
+.image img{
     border-radius: 90px;
-}
-.image2{
-   
-   width: 30%;
-   
-}
-.image2 img{
-    width: 100%;
-    height: 15vh;
-    border-radius: 90px;
-
-}
-.image3 img{
-    width: 100%;
-    height: 15vh;
-    border-radius: 90px;
+    height: 35vh;
 }
